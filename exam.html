@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Class Timetable</title>
+    <style>
+        /* Basic styling for the table and appearance */
+        body {
+            font-family: Arial, sans-serif;
+            text-align: center;
+            margin-top: 30px;
+        }
+
+        h2 {
+            color: blue;
+        }
+
+        table {
+            width: 80%;
+            margin: 0 auto;
+            border-collapse: collapse;
+            text-align: center;
+        }
+
+        th, td {
+            border: 1px solid black;
+            padding: 12px;
+        }
+
+        th {
+            background-color: #e6f2ff;
+        }
+
+        /* Styling for the Lunch Break column */
+        .lunch {
+            background-color: #fffacd;
+            font-weight: bold;
+        }
+    </style>
+</head>
+<body>
+
+    <h2>Class Timetable (Semester I)</h2>
+
+    <table>
+
+        <tr>
+            <th>Day</th>
+            <th>9:00 – 10:00</th>
+            <th>10:00 – 11:00</th>
+            <th>11:00 – 12:00</th>
+            <th>12:00 – 1:00</th>
+        </tr>
+
+        <tr>
+            <td><strong>Monday</strong></td>
+            <td>HTML</td>
+            <td>Mathematics</td>
+            <td>Programming</td>
+            <td rowspan="5" class="lunch">
+                Lunch Break<br>
+                (12:00 – 1:00)
+            </td>
+        </tr>
+
+        <tr>
+            <td><strong>Tuesday</strong></td>
+            <td>Mathematics</td>
+            <td>HTML</td>
+            <td>English</td>
+        </tr>
+
+        <tr>
+            <td><strong>Wednesday</strong></td>
+            <td>Programming</td>
+            <td>English</td>
+            <td>HTML</td>
+        </tr>
+
+        <tr>
+            <td><strong>Thursday</strong></td>
+            <td>English</td>
+            <td>Programming</td>
+            <td>Mathematics</td>
+        </tr>
+
+        <tr>
+            <td><strong>Friday</strong></td>
+            <td>HTML</td>
+            <td>English</td>
+            <td>Programming</td>
+        </tr>
+    </table>
+
+</body>
+</html>
